@@ -1,0 +1,27 @@
+Git:
+git status
+
+git add .   
+
+git commit -m “message”
+
+git push -u origin main  OR git push
+
+git remote add origin [git@github.com](mailto:git@github.com):SudheeshTD/Digital-Depot.git
+git remote set-url origin https://github.com/SudheeshTD/Digital-Depot.git
+git branch -M main
+
+git push -u origin main
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------
+npx create-react-app frontend creating react app
+
+npm start -  in frontend folder - starting react 
+
+npm i react-bootstrap bootstrap react-icons
+    installs three popular libraries for React projects.
+    react-bootstrap: Provides Bootstrap components as React components.
+    bootstrap: The core CSS framework that react-bootstrap relies on.
+    react-icons: A library for popular icons in React.
