@@ -108,4 +108,8 @@ npm i mongoose - root
     Installing Mongoose - DB 
 
 
+npm i bcryptjs  - root
+    Hashing password
+
+    
 
