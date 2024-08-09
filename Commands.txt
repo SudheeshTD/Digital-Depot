@@ -1,3 +1,5 @@
+Hardcoded url" 
+
 ***********************************************************************************************************************************************
 (1) Git:
 ***********************************************************************************************************************************************
@@ -42,6 +44,13 @@ npm i axios - Frontend  // can also use Fetch API as alternative
     promise-based HTTP client for making requests to external APIs or servers from both the browser and Node.js
     converts JSON to Javascript
 
+------
+(6)
+------
+npm i @reduxjs/toolkit react-redux  - Frontend
+    installing Redux toolkit for state management
+    @reduxjs/toolkit - recommended way to write Redux logic. It provides tools that simplify common Redux tasks, making it easier to set up and manage your Redux store.
+    react-redux -  set of bindings that allows you to use Redux with React. It helps connect your React components to the Redux store so that they can read state and dispatch actions.
 
 
 
