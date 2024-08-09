@@ -1,0 +1,15 @@
+{
+  "name": "digital-depot",
+  "version": "1.0.0",
+  "description": "eCommerce applicaton for Gadgets, its built using MERN Stack.",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js"
+  },
+  "author": "Sudheesh T D",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

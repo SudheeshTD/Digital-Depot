@@ -1,4 +1,6 @@
+***********************************************************************************************************************************************
 Git:
+***********************************************************************************************************************************************
 git status
 
 git add .   
@@ -15,13 +17,52 @@ git push -u origin main
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
+React / FrontEnd
 ------------------------------------------------------------------------------------------------------------------------------------------------
 npx create-react-app frontend creating react app
 
-npm start -  in frontend folder - starting react 
+npm start -  in frontend folder - starting react  
 
-npm i react-bootstrap bootstrap react-icons
+npm i react-bootstrap bootstrap react-icons - Frontend Folder
     installs three popular libraries for React projects.
     react-bootstrap: Provides Bootstrap components as React components.
     bootstrap: The core CSS framework that react-bootstrap relies on.
     react-icons: A library for popular icons in React.
+
+npm i react-router-dom - FrontEnd Folder
+    to handle routing in a React 
+
+npm i react-router-bootstrap
+     integrates react-bootstrap components with react-router
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+Backend / Server
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+npm init   - root -  (To skip all ques enter 'npm init -y')
+    To initialize a new Node.js project, This command sets up a package.json file that will hold information about your project and its dependencies
+
+        - In this pgm - 
+            About to write to D:\Studies\Git\React\Digital Depot\package.json:
+
+            {
+            "name": "digital-depot",
+            "version": "1.0.0",
+            "description": "eCommerce applicaton for Gadgets, its built using MERN Stack.",
+            "main": "server.js",
+            "scripts": {
+                "test": "echo \"Error: no test specified\" && exit 1"
+            },
+            "author": "Sudheesh T D",
+            "license": "ISC"
+            }
+
+npm start - root - 
+    to start server 
+    in package.json add - "start": "node backend/server.js"
+
+npm i express - root 
+    installing express framefork for backend
+
