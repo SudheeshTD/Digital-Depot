@@ -1,5 +1,5 @@
 ***********************************************************************************************************************************************
-Git:
+(1) Git:
 ***********************************************************************************************************************************************
 git status
 
@@ -17,7 +17,7 @@ git push -u origin main
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
-React / FrontEnd
+(2) React / FrontEnd 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 npx create-react-app frontend creating react app
 
@@ -35,10 +35,18 @@ npm i react-router-dom - FrontEnd Folder
 npm i react-router-bootstrap
      integrates react-bootstrap components with react-router
 
+------
+(4)
+------
+npm i axios - Frontend  // can also use Fetch API as alternative
+    promise-based HTTP client for making requests to external APIs or servers from both the browser and Node.js
+    converts JSON to Javascript
+
+
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
-Backend / Server
+(3) Backend / Server
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
 npm init   - root -  (To skip all ques enter 'npm init -y')
