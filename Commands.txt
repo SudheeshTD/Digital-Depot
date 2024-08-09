@@ -61,8 +61,28 @@ npm init   - root -  (To skip all ques enter 'npm init -y')
 
 npm start - root - 
     to start server 
-    in package.json add - "start": "node backend/server.js"
+    in package.json add -"Script" => "start": "node backend/server.js"
 
 npm i express - root 
     installing express framefork for backend
+
+npm i -D nodemon concurrently  - root
+    nodemon - to eliminate the necessity of restarting server everytime i change something in code
+    Concurrently - to start Backend and Frontend server concurrently
+    -D - will be installed as development dependencies
+    in package.json add -"Script" => "server": "nodemon backend/server.js"
+
+npm run server - root
+    - is used to run a specific script named server that is defined in the "scripts" section of your package.json file.
+
+npm run client - root
+    "Script" => "client": "npm start --prefix frontend"
+    - running frontend from root folder
+
+npm run dev - root
+    "Script" =>
+        "server": "nodemon backend/server.js",
+        "client": "npm start --prefix frontend",
+        "dev": "concurrently \"npm run server\" \"npm run client\""
+    run both client and Server Concurrently
 
