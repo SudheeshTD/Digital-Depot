@@ -111,5 +111,16 @@ npm i mongoose - root
 npm i bcryptjs  - root
     Hashing password
 
+
+npm i colors - root 
+    adds style and colourize console output in Nodejs app
+
+
+npm run data:import - root
+    script to import data from seeder
+    "Script" => "data:import": "node backend/seeder.js",
     
+npm run data:destroy  - root
+    script to clear Data from Database
+    "Script" => "data:destroy": "node backend/seeder.js -d"
 
