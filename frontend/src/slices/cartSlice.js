@@ -39,7 +39,7 @@ const cartSlice = createSlice({
             ).toFixed(2);
 
             localStorage.setItem('cart', JSON.stringify(state));
-        },    
+        }
     },
 });
 
