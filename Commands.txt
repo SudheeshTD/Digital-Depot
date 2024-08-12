@@ -115,6 +115,8 @@ npm i jsonwebtoken  - Root
     which you can then use to create, verify, and decode JWTs in your Node.js applications, enabling you to handle authentication and authorization securely.
 
 
+npm i cookie-parser  - Root
+    its a a Middleware, helps in parsing and managing HTTP cookies in Express.js applications.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 (5) Database (Mongoose)
