@@ -11,6 +11,10 @@ connectDB(); // Connect to Database MongoDB
 
 const app = express();
 
+//Body Parser Middleware
+app.use(express.json());
+app.use(express.urlencoded({ ectended:true }))
+
 app.get('/', (req,res) => {
     res.send("API is running...");
 });
