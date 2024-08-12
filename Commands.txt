@@ -108,6 +108,13 @@ npm run dev - root
     initialize dotenv in package.json
     for global variables
 
+------
+(7)
+------
+npm i jsonwebtoken  - Root 
+    which you can then use to create, verify, and decode JWTs in your Node.js applications, enabling you to handle authentication and authorization securely.
+
+
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 (5) Database (Mongoose)
