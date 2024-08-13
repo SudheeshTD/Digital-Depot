@@ -58,7 +58,7 @@ npm i @reduxjs/toolkit react-redux  - Frontend
 ------
 
 npm i react-toastify - FrontEnd
-    display Toast Messages
+    display Toast messages
     
 
 
