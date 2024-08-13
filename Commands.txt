@@ -53,6 +53,14 @@ npm i @reduxjs/toolkit react-redux  - Frontend
     react-redux -  set of bindings that allows you to use Redux with React. It helps connect your React components to the Redux store so that they can read state and dispatch actions.
 
 
+------
+(7)
+------
+
+npm i react-toastify - FrontEnd
+    display Toast Messages
+    
+
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 (3) Backend / Server
