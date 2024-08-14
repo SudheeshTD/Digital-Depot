@@ -54,13 +54,12 @@ npm i @reduxjs/toolkit react-redux  - Frontend
 
 
 ------
-(7)
+(8)
 ------
 
 npm i react-toastify - FrontEnd
     display Toast messages
     
-
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 (3) Backend / Server
@@ -150,3 +149,19 @@ npm run data:destroy  - root
     script to clear Data from Database
     "Script" => "data:destroy": "node backend/seeder.js -d"
 
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+(9) Paypal
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+https://developer.paypal.com/dashboard/
+
+testing tools =>
+    Business = Where I get my money to from app
+    Personal = Where I pay with
+
+Apps & Credentials 
+    Create App = create a new instance of app and set it to merchant
+    
+    Copy Client ID and put it in .ENV

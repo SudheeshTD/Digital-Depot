@@ -16,7 +16,6 @@ export const productsApiSlice = apiSlice.injectEndpoints({
             keepUnusedDataFor: 5,
         }),
     }),
-
 });
 
 export const { useGetProductsQuery, useGetProductDetailsQuery } = productsApiSlice;
