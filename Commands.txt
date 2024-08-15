@@ -60,6 +60,15 @@ npm i @reduxjs/toolkit react-redux  - Frontend
 npm i react-toastify - FrontEnd
     display Toast messages
     
+------
+(10)
+------
+
+npm i @paypal/react-paypal-js -FrontEnd
+    React wrapper for the PayPal JavaScript SDK, allowing you to easily integrate PayPal buttons and other PayPal features into your React application.
+
+
+
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 (3) Backend / Server
@@ -152,7 +161,7 @@ npm run data:destroy  - root
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
-(9) Paypal
+(9) Paypal SandBox
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
 https://developer.paypal.com/dashboard/
