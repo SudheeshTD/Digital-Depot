@@ -8,7 +8,7 @@ import { toast } from 'react-toastify';
 import Message from '../components/Message';
 import Loader from '../components/Loader';
 import { useProfileMutation } from '../slices/usersApiSlice';
-//import { useGetMyOrdersQuery } from '../slices/OrdersApiSlice';
+import { useGetMyOrdersQuery } from '../slices/OrdersApiSlice';
 import { setCredentials } from '../slices/authSlice';
 
 const ProfileScreen = () => {
@@ -19,7 +19,7 @@ const ProfileScreen = () => {
 
   const { userInfo } = useSelector((state) => state.auth);
 
-  //const { data: orders, isLoading, error } = useGetMyOrdersQuery();
+  const { data: orders, isLoading, error } = useGetMyOrdersQuery();
 
   const [updateProfile, { isLoading: loadingUpdateProfile }] =
     useProfileMutation();
@@ -101,7 +101,7 @@ const ProfileScreen = () => {
           </Button>
         </Form>
       </Col>
-      {/* <Col md={9}>
+      {<Col md={9}>
         <h2>My Orders</h2>
         {isLoading ? (
           <Loader />
@@ -153,7 +153,7 @@ const ProfileScreen = () => {
             </tbody>
           </Table>
         )}
-      </Col> */}
+      </Col>}
     </Row>
   );
 };
