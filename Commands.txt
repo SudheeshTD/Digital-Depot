@@ -69,7 +69,6 @@ npm i @paypal/react-paypal-js -FrontEnd
 
 
 
-
 ------------------------------------------------------------------------------------------------------------------------------------------------
 (3) Backend / Server
 ------------------------------------------------------------------------------------------------------------------------------------------------
@@ -133,6 +132,14 @@ npm i jsonwebtoken  - Root
 
 npm i cookie-parser  - Root
     its a a Middleware, helps in parsing and managing HTTP cookies in Express.js applications.
+
+------
+(11)
+------
+npm i multer - Root
+    middleware for handling multipart/form-data, which is primarily used for uploading files in web applications.
+
+
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 (5) Database (Mongoose)
