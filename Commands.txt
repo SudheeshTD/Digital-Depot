@@ -68,6 +68,12 @@ npm i @paypal/react-paypal-js -FrontEnd
     React wrapper for the PayPal JavaScript SDK, allowing you to easily integrate PayPal buttons and other PayPal features into your React application.
 
 
+------
+(12)
+------
+npm i react-helmet-async  - FrontEnd
+     library that allows you to manage the document head (e.g., title, meta tags, links) of your React application in an asynchronous and SSR (Server-Side Rendering) compatible way
+
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 (3) Backend / Server
