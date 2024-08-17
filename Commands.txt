@@ -187,3 +187,16 @@ Apps & Credentials
     Create App = create a new instance of app and set it to merchant
     
     Copy Client ID and put it in .ENV
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+(13) Build for deploy
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+"build" : "npm install && npm install --prefix frontend && npm run build --prefix frontend"  - Root - Package.json
+    After running the "build" script, the project will have all necessary dependencies installed, and the frontend code will be compiled and ready for production.
+
+npm run build - root
+    execute a script build that is defined in the scripts section of your package.json file. This command is typically used in the context of building a project, especially in modern JavaScript applications like those built with React, Angular, Vue, or other frontend frameworks.
+
+
